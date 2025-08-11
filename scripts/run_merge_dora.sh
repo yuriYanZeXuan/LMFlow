@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Parses arguments
-model_name_or_path=gpt2
-lora_model_path=output_models/lora
-output_model_path=output_models/merge_lora
+model_name_or_path=data4elm/Llama-400M-12L
+lora_model_path=/home/ubuntu/ELM/LMFlow/output_models/head100M
+output_model_path=/home/ubuntu/ELM/LMFlow/output_models/head100M_merged
 device=cpu
 
 # if gpu

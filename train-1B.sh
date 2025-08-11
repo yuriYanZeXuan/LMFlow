@@ -5,7 +5,7 @@
 model_name_or_path=data4elm/Llama-400M-12L
 dataset_path=/home/ubuntu/ELM/LMFlow/data/head1B
 # conversation_template=llama2
-output_dir=output_models/finetune_head1B
+output_dir=output_models/head1B
 deepspeed_args="--master_port=11000"
 
 # Safety related arguments
